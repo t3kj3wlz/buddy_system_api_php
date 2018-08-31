@@ -14,7 +14,7 @@ require_once __DIR__ . '/vendor.php';
 
 class EndPoint extends \API{
 
-    const ACCOUNTS = 'http://192.168.1.77/';
+    const ACCOUNTS = 'http://api.attlocal.net:9600';
 
     protected $user;
 
