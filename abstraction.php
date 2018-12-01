@@ -26,10 +26,9 @@ interface OrderBehavior{
 
 abstract class Record implements RecordBehavior{
 
-    //const DB = 'buddy_system';
-    const DB = 'buddy_test';
+    const DB = 'buddy_system';
+    //const DB = 'buddy_test';
     const PRIMARYKEY = 'UID';
-//    const DB = 'BUDdy_test';
 
     public $UID;
     public $created_date;
