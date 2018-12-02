@@ -1,5 +1,7 @@
 <?php namespace Buddy;
 
+date_default_timezone_set("America/Chicago");
+
 require_once __DIR__ . '/db.php';
 
 if(!isset($GLOBALS['db'])){
